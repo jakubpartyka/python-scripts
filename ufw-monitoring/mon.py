@@ -1,4 +1,8 @@
 #!/usr/bin/python2.7
+
+# export number of connections blocked by UFW as a prometheus metric
+# v.0.2
+
 from datetime import date
 from prometheus_client import start_http_server, Gauge
 import re
